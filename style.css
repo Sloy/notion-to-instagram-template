@@ -1,0 +1,64 @@
+.zoomed {
+    zoom: 45%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    position: absolute;
+}
+
+.story {
+    margin: 0px;
+    padding: 0px;
+    width: 1080px;
+    height: 1920px;
+    background-color: #ccc;
+}
+
+.photo {
+    display: block;
+    position: absolute;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 180px;
+    margin-bottom: 370px;
+    width: 960px;
+    height: 1460px;
+    object-fit: cover;
+    border-radius: 45px;
+    filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.5));
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+
+    /* Define where you want the text */
+    top: 1700px;
+    width: 960px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    /* Set Font Details */
+    font-family: Dosis, sans-serif;
+    font-size: 44pt;
+    font-weight: 500;
+    color: white;
+}
+
+.text span {
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 20px;
+    padding: 0px 15px 0px 15px;
+}
+
+.emoji {
+    position: absolute;
+    top: 1580px;
+    left: 940px;
+    font-size: 100px;
+    transform: rotate(-15deg);
+}
